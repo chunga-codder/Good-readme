@@ -65,7 +65,7 @@ function generateMarkdown(response){
 
 # ${response.title}
 
-# Table of msContentScript
+# Table of Content
 
 - [Description](#description)
 - [Installation](#installation)
@@ -81,9 +81,9 @@ function generateMarkdown(response){
 
      ${response.description}
 
-## Instalation:
+## Installation:
       
-      ${response.instalation}
+      ${response.installation}
 
 ##Usage:
       ${response.usage}
@@ -103,14 +103,14 @@ function generateMarkdown(response){
 
     for more clientInformation,click on the link bellow to find out more 
 
-    ![License](https://opensource.org/License-${response.license})
+    [License](https://opensource.org/License-${response.license})
       
       
  ##Questions:
  
     for more questions about this applicationCache, visite my Github page at 
 
-    ![Github Profile](https://github.com/${response.username})
+    [Github Profile](https://github.com/${response.username})
 
     for additional questions,you can reach me at my email at: ${response.email}`
       
