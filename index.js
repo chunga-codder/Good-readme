@@ -1,7 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
-const markdownGenerate = require('./util/generateMarkdown.js');
 
 const writeFileAsync = util.promisify(fs.writeFile);
 
@@ -11,51 +10,51 @@ const writeFileAsync = util.promisify(fs.writeFile);
 function promptUser(){
     return inquirer.prompt([
         {   type: "input",
-             name: "what is the name of this project",
-            massage: "title"
+             massage: "tittle",
+            name: "what is the name of this project"
             
         },
         {   type: "input",
-            massage: "Description of this project",
-            name: "Description"
+            name: "Description of this project",
+            massage: "Description"
         },
         {   type: "input",
-            massage: "what are the installation instructions of this project? write N/A if none",
-            name: "installation"
+            name: "what are the installation instructions of this project? write N/A if none",
+            massage: "installation"
         },
         {   type: "input",
-            massage: "how is this application used?",
-            name: "usage"
+            name: "how is this application used?",
+            massage: "usage"
         },
         {   type: "input",
-            massage: "list the contibutors on this project, write N/A if non",
-            name: "contributors"
+            name: "list the contibutors on this project, write N/A if non",
+            massage: "contributors"
         },
         {   type: "input",
-            massage: "what are the test instructions",
-            name: "test"
+            name: "what are the test instructions",
+            massage: "test"
         },
         {   type: "checkbox",
-            massage: "select a license",
+            name: "select a license",
             choices: [
                 "Apache",
                 "MIT",
                 "ISC",
                 "GNU GPLv3"
             ],
-            name: "license"
+            massage: "license"
         },
         {   type: "input",
             massage: "whose credit is this work",
-            name: "credit"
+            name: "credits"
         },
         {   type: "input",
-            massage: "what is your github user name",
-            name: "username"
+            name: "what is your github user name",
+            massage: "username"
         },
         {   type: "input",
-            massage: "what is your email",
-            name: "email"
+            name: "what is your email",
+            massage: "email"
         }
     ]);
 }
@@ -63,7 +62,7 @@ function promptUser(){
 function generateMarkdown(response){
     return`
 
-# ${response.title}
+# ${response.tittle}
 
 # Table of Content
 
@@ -77,7 +76,7 @@ function generateMarkdown(response){
 - [Questions](#questions)
 
 ## Description:
-![License](https://img.shield.io/badge/License-${response.license}-blue.svg "License badge")
+![License](https://img.shield.io/badge/License-${response.license}-blue.svg)
 
      ${response.description}
 
