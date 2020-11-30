@@ -11,8 +11,9 @@ const writeFileAsync = util.promisify(fs.writeFile);
 function promptUser(){
     return inquirer.prompt([
         {   type: "input",
-            massage: "what is the name of this project",
-            name: "title"
+             name: "what is the name of this project",
+            massage: "title"
+            
         },
         {   type: "input",
             massage: "Description of this project",
@@ -59,10 +60,10 @@ function promptUser(){
     ]);
 }
 
-function generateMarkdown(reaspons){
+function generateMarkdown(response){
     return`
 
-# ${respons.title}
+# ${response.title}
 
 # Table of msContentScript
 
@@ -82,13 +83,13 @@ function generateMarkdown(reaspons){
 
 ## Instalation:
       
-      ${response.Instalation}
+      ${response.instalation}
 
 ##Usage:
       ${response.usage}
 
  ##Contributors:
-      ${response.Contributors}
+      ${response.contributors}
 
 
 ##Test:
@@ -122,7 +123,7 @@ async function init(){
     try{
         const response = await promptUser();
 
-        const readMe = generateMarkdown(response);
+        const readme = generateMarkdown(response);
 
         await writeFileAsync("README.md", readme);
         console.log("success");
