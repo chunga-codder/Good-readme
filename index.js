@@ -10,51 +10,55 @@ const writeFileAsync = util.promisify(fs.writeFile);
 function promptUser(){
     return inquirer.prompt([
         {   type: "input",
-             massage: "tittle",
-            name: "what is the name of this project"
+             name: "tittle",
+            massage: "what is the name of this project"
             
         },
         {   type: "input",
-            name: "Description of this project",
-            massage: "Description"
+            massage: "Description of this project",
+            name: "Description"
         },
         {   type: "input",
-            name: "what are the installation instructions of this project? write N/A if none",
-            massage: "installation"
+            massage: "what where your motivations for this project",
+            name: "motivations"
         },
         {   type: "input",
-            name: "how is this application used?",
-            massage: "usage"
+            massage: "what are the installation instructions of this project? write N/A if none",
+            name: "installation"
         },
         {   type: "input",
-            name: "list the contibutors on this project, write N/A if non",
-            massage: "contributors"
+            massage: "how is this application used?",
+            name: "usage"
         },
         {   type: "input",
-            name: "what are the test instructions",
-            massage: "test"
+            massage: "list the contibutors on this project, write N/A if non",
+            name: "contributors"
+        },
+        {   type: "input",
+            massage: "what are the test instructions",
+            name: "test"
         },
         {   type: "checkbox",
-            name: "select a license",
+            massage: "select a license",
             choices: [
                 "Apache",
                 "MIT",
                 "ISC",
                 "GNU GPLv3"
             ],
-            massage: "license"
+            name: "license"
         },
         {   type: "input",
             massage: "whose credit is this work",
             name: "credits"
         },
         {   type: "input",
-            name: "what is your github user name",
-            massage: "username"
+            massage: "what is your github user name",
+            name: "username"
         },
         {   type: "input",
-            name: "what is your email",
-            massage: "email"
+            massage: "what is your email",
+            name: "email"
         }
     ]);
 }
