@@ -1,6 +1,6 @@
 
 
-# my readme
+# kfkkfkff
 
 # Table of Content
 
@@ -14,41 +14,51 @@
 - [Questions](#questions)
 
 ## Description:
-![License](https://img.shield.io/badge/License-ISC-blue.svg)
+
+![License](https://img.shield.io/badge/License-GPLv2-blue.svg)
 
      undefined
 
-## Installation:
+## Installation/dependences:
 
-      the installation of this app most go along with the following dependencies
+      the installation of this app most go along with the following dependencies, make sure all dependences are 
+      properly installed
+       
       
-      jkfjkkrehjhere
+      fllfllflf
+      
 
-##Usage:
-      kekkejjehjehe
+## Usage:
 
- ##Contributors:
-      jjfujrujhrrhrr
+      ffkflfkf
+
+ ## Contributors:
+
+      flfkfkfkf
 
 
-##Test:
-      kfjkjrenjrjrhjrjr
+## Test:
 
-##Credits:
-      kjrjkrjjrr
+      fkkfkfkfkf
 
-##License:
-      ISC
+## Credits:
+
+      ekekekkekee
+
+## License:
+
+      GPLv2
 
     for more Information concerning the licences,click on the link bellow 
 
-    ![License](https://opensource.org/License-ISC)
+    [License](https://opensource.org/licenses/GPLv2)
       
       
- ##Questions:
- 
-    for more questions about this applicationCache, visite my Github page at 
+ ## Questions:
+    if you are confuse about something on this application, you are free to contact me in person
+    if not still satisfied,you can create an issue at github issues too.
+    for more questions about this application, you can visite my Github page at 
 
-    ![Github Profile](https://github.com/jrjjrjrhnrr)
+    [Github Profile](https://github.com/ekkekekkee) or,
 
-    for additional questions,you can reach me at my email at: krjkrjjrjrjr
+    for additional questions,you can reach me at: ellelele

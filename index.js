@@ -25,7 +25,7 @@ function promptUser() {
     },
     {
       type: "input",
-      message:"what are the installation instructions of this project? write N/A if none",
+      message:"what are the installation instructions of this project? write N/A if none and, some dependences used.",
       name: "installation"
     },
     { type: "input", 
@@ -87,34 +87,38 @@ function generateMarkdown(response) {
 - [Questions](#questions)
 
 ## Description:
+
 ![License](https://img.shield.io/badge/License-${response.license}-blue.svg)
 
      ${response.description}
 
-## Installation:
+## Installation/dependences:
 
-      the installation of this app most go along with the following dependencies
+      the installation of this app most go along with the following dependencies, make sure all dependences are 
+      properly installed
+       
       
       ${response.installation}
+      
 
-##Usage:
+## Usage:
 
       ${response.usage}
 
- ##Contributors:
+ ## Contributors:
 
       ${response.contributors}
 
 
-##Test:
+## Test:
 
       ${response.test}
 
-##Credits:
+## Credits:
 
       ${response.credits}
 
-##License:
+## License:
 
       ${response.license}
 
@@ -123,8 +127,9 @@ function generateMarkdown(response) {
     [License](https://opensource.org/licenses/${response.license})
       
       
- ##Questions:
- 
+ ## Questions:
+    if you are confuse about something on this application, you are free to contact me in person
+    if not still satisfied,you can create an issue at github issues too.
     for more questions about this application, you can visite my Github page at 
 
     [Github Profile](https://github.com/${response.username}) or,
