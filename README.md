@@ -36,7 +36,7 @@
 
       i am the only contributor. clinton abumbi
 
-## links to saple video:
+## links to sample video:
 https://drive.google.com/file/d/1Hb4Q0FAgZCQk3EvjurTol8C64Ctc4w5x/view
 
 ## Test:
