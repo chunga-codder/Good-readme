@@ -1,6 +1,6 @@
 
 
-# kfkkfkff
+# MY README GENERATOR
 
 # Table of Content
 
@@ -15,7 +15,7 @@
 
 ## Description:
 
-![License](https://img.shield.io/badge/License-GPLv2-blue.svg)
+![License](https://img.shield.io/badge/License-MIT-blue.svg)
 
      undefined
 
@@ -25,33 +25,33 @@
       properly installed
        
       
-      fllfllflf
+      for you to be able to use thi app,u install util,inquirer,fs
       
 
 ## Usage:
 
-      ffkflfkf
+      it is used as explained in description
 
  ## Contributors:
 
-      flfkfkfkf
+      i am the only contributor. clinton abumbi
 
 
 ## Test:
 
-      fkkfkfkfkf
+      non for now
 
 ## Credits:
 
-      ekekekkekee
+      clinton abumbi
 
 ## License:
 
-      GPLv2
+      MIT
 
     for more Information concerning the licences,click on the link bellow 
 
-    [License](https://opensource.org/licenses/GPLv2)
+    [License](https://opensource.org/licenses/MIT)
       
       
  ## Questions:
@@ -59,6 +59,6 @@
     if not still satisfied,you can create an issue at github issues too.
     for more questions about this application, you can visite my Github page at 
 
-    [Github Profile](https://github.com/ekkekekkee) or,
+    [Github Profile](https://github.com/chunga-codder) or,
 
-    for additional questions,you can reach me at: ellelele
+    for additional questions,you can reach me at: clintonchunga@gmail.com
