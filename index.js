@@ -84,6 +84,7 @@ function generateMarkdown(response) {
 - [Test](#test)
 - [Credits](#credits)
 - [License](#license)
+- [Sample video](#sample video)
 - [Questions](#questions)
 
 ## Description:
