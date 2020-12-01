@@ -1,6 +1,6 @@
 
 
-# jkdjjjd
+# my readme
 
 # Table of Content
 
@@ -14,39 +14,41 @@
 - [Questions](#questions)
 
 ## Description:
-![License](https://img.shield.io/badge/License-Apache-blue.svg)
+![License](https://img.shield.io/badge/License-ISC-blue.svg)
 
      undefined
 
 ## Installation:
+
+      the installation of this app most go along with the following dependencies
       
-      kdlkjkjd
+      jkfjkkrehjhere
 
 ##Usage:
-      kdlkdlkd
+      kekkejjehjehe
 
  ##Contributors:
-      dklkdlkd
+      jjfujrujhrrhrr
 
 
 ##Test:
-      djkjdkkd
+      kfjkjrenjrjrhjrjr
 
 ##Credits:
-      undefined
+      kjrjkrjjrr
 
 ##License:
-      Apache
+      ISC
 
-    for more clientInformation,click on the link bellow to find out more 
+    for more Information concerning the licences,click on the link bellow 
 
-    [License](https://opensource.org/License-Apache)
+    ![License](https://opensource.org/License-ISC)
       
       
  ##Questions:
  
     for more questions about this applicationCache, visite my Github page at 
 
-    [Github Profile](https://github.com/fkkfkfkf)
+    ![Github Profile](https://github.com/jrjjrjrhnrr)
 
-    for additional questions,you can reach me at my email at: fkkfkfkkf
+    for additional questions,you can reach me at my email at: krjkrjjrjrjr

@@ -11,39 +11,39 @@ function promptUser() {
     {
       type: "input",
       name: "tittle",
-      massage: "what is the name of this project"
+      message: "what is the name of this project"
     },
     {
       type: "input",
-      massage: "Description of this project",
+      message: "Give a brief description of this project",
       name: "Description"
     },
     {
       type: "input",
-      massage: "what where your motivations for this project",
+      message: "what where your motivations for this project",
       name: "motivations"
     },
     {
       type: "input",
-      massage:"what are the installation instructions of this project? write N/A if none",
+      message:"what are the installation instructions of this project? write N/A if none",
       name: "installation"
     },
     { type: "input", 
-    massage: "how is this application used?",
+    message: "how is this application used?",
     name: "usage"
 },
     {
       type: "input",
-      massage: "list the contibutors on this project, write N/A if non",
+      message: "list the contibutors on this project, write N/A if non",
       name: "contributors"
     },
     { type: "input",
-     massage: "what are the test instructions",
+     message: "what are the test instructions",
       name: "test"
      },
     {
       type: "checkbox",
-      massage: "select a license",
+      message: "select a license",
       choices: [ 
           "Apache", 
           "MIT", 
@@ -53,16 +53,16 @@ function promptUser() {
       name: "license"
     },
     { type: "input", 
-      massage: "whose credit is this work", 
+      message: "whose credit is this work", 
       name: "credits"
     },
     {
       type: "input",
-      massage: "what is your github user name",
+      message: "what is your github user name",
       name: "username"
     },
     { type: "input",
-     massage: "what is your email",
+     message: "what is your email",
      name: "email" 
     }
   ])
@@ -90,6 +90,8 @@ function generateMarkdown(response) {
      ${response.description}
 
 ## Installation:
+
+      the installation of this app most go along with the following dependencies
       
       ${response.installation}
 
@@ -109,16 +111,16 @@ function generateMarkdown(response) {
 ##License:
       ${response.license}
 
-    for more Information concernibg the licences,click on the link bellow 
+    for more Information concerning the licences,click on the link bellow 
 
-    [License](https://opensource.org/License-${response.license})
+    ![License](https://opensource.org/License-${response.license})
       
       
  ##Questions:
  
     for more questions about this applicationCache, visite my Github page at 
 
-    [Github Profile](https://github.com/${response.username})
+    ![Github Profile](https://github.com/${response.username})
 
     for additional questions,you can reach me at my email at: ${response.email}`;
 }
