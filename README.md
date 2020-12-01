@@ -25,7 +25,7 @@
       properly installed
        
       
-      for you to be able to use thi app,u install util,inquirer,fs
+      for you to be able to use this app,you have to install util,inquirer,fs
       
 
 ## Usage:
