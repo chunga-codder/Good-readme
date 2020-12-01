@@ -43,12 +43,14 @@ function promptUser() {
      },
     {
       type: "checkbox",
-      message: "select a license",
+      message: "select a license or write N/A if non is chosen",
       choices: [ 
+          "BSD",
           "Apache", 
           "MIT", 
           "ISC", 
-          "GNU GPLv3"
+          "GNU GPLv3",
+          "GPLv2"
         ],
       name: "license"
     },
@@ -96,33 +98,38 @@ function generateMarkdown(response) {
       ${response.installation}
 
 ##Usage:
+
       ${response.usage}
 
  ##Contributors:
+
       ${response.contributors}
 
 
 ##Test:
+
       ${response.test}
 
 ##Credits:
+
       ${response.credits}
 
 ##License:
+
       ${response.license}
 
     for more Information concerning the licences,click on the link bellow 
 
-    ![License](https://opensource.org/License-${response.license})
+    [License](https://opensource.org/licenses/${response.license})
       
       
  ##Questions:
  
-    for more questions about this applicationCache, visite my Github page at 
+    for more questions about this application, you can visite my Github page at 
 
-    ![Github Profile](https://github.com/${response.username})
+    [Github Profile](https://github.com/${response.username}) or,
 
-    for additional questions,you can reach me at my email at: ${response.email}`;
+    for additional questions,you can reach me at: ${response.email}`;
 }
 
 // initializinf function
